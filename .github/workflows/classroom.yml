@@ -77,4 +77,4 @@ jobs:
         PARTB1_RESULTS: "${{steps.partb1.outputs.result}}"
         PARTB2_RESULTS: "${{steps.partb2.outputs.result}}"
       with:
-        runners: parta1,parta2,parta3,parta4,partb1,partb2,
+        runners: parta1,parta2,parta3,parta4,partb1,partb2
